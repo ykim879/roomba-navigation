@@ -1,0 +1,84 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <world name="klaus1">
+  	<!--gravity>0 0 -0.01</gravity-->
+  	<include>
+      <uri>model://ground_plane</uri>
+    </include>
+  	<!--model name="klaus1">  	  
+  		<pose>0 0 0  0 0 0</pose>
+  		<static>true</static>
+  		<link name="body">
+  			<self_collide>1</self_collide>
+  			<visual name="visual">
+  				<geometry>
+  					<mesh>
+  						<uri>file:///home/nicholas/catkin_ws/src/create_gazebo/worlds/revised 1.stl</uri>
+  					</mesh>
+  				</geometry>
+  			</visual>
+  			<collision name="collision">
+  				<geometry>
+  					<mesh>
+  						<uri>file:///home/nicholas/catkin_ws/src/create_gazebo/worlds/revised -1.stl</uri>
+  						<scale>1 1 1</scale>
+  					</mesh>
+  				</geometry>
+  			</collision>
+  			
+  		</link>
+  	</model-->
+  	<!--model name="klaus2">  	  
+  		<pose>0 0 0  0 0 0</pose>
+  		<static>true</static>
+  		<link name="body">
+  			<self_collide>1</self_collide>
+  			<visual name="visual">
+  				<geometry>
+  					<mesh>
+  						<uri>file:///home/nicholas/catkin_ws/src/create_gazebo/worlds/153-2.stl</uri>
+  						
+  					</mesh>
+  				</geometry>
+  			</visual>
+  			<collision name="collision">
+  				<geometry>
+  					<mesh>
+  						<uri>file:///home/nicholas/catkin_ws/src/create_gazebo/worlds/153-2.stl</uri>
+  						<scale>1 1 10</scale>
+  					</mesh>
+  				</geometry>
+  			</collision>
+  			
+  		</link>
+  	</model-->
+  	<model name="klaus3">  	  
+  		<pose>0 0 0  0 0 0</pose>
+  		<static>true</static>
+  		<link name="body">
+  			<self_collide>1</self_collide>
+  			<visual name="visual">
+  				<geometry>
+  					<mesh>
+  						<uri>file:///home/nicholas/catkin_ws/src/create_gazebo/worlds/153-3.stl</uri>
+  						
+  					</mesh>
+  				</geometry>
+  			</visual>
+  			<collision name="collision">
+  				<geometry>
+  					<mesh>
+  						<uri>file:///home/nicholas/catkin_ws/src/create_gazebo/worlds/153-3.stl</uri>
+  						
+  					</mesh>
+  				</geometry>
+  			</collision>
+  			
+  		</link>
+  	</model>  			
+  </world>
+ </sdf>
+  		 
+  			
+  			
+  			
