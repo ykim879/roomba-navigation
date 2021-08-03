@@ -11,7 +11,18 @@ $ cd ~/catkin_ws/
 $ catkin_make
 $ source devel/setup.bash
 ```
+To automatically source scripts, insert the following commands in the home directory.
+```bash
+$ echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc
+$ source ~/.bashrc
+$ cd ~/catkin_ws
+$ echo "source devel/setup.bash" >> ~/.bashrc
+$ source ~/.bashrc
+```
+Close the terminal and open a new one. The scripts should now be automatically sourced.
+
 The source of this instructions are in this link: http://wiki.ros.org/catkin/Tutorials/create_a_workspace
+
 
 Thirdly, clone the repository. 
 After cloning the repository, copy create_control, create_description, and create_gazebo file in roomba-navigation/catkin_ws/src/ directory and paste it on your catkin-ws/src directory (the directory you made on second step). 
@@ -25,20 +36,14 @@ $ roscore
 ### Launching the roomba-gazebo-world 
 Proceed the following commands in your home directory (the directory you are in when you open the terminal).
 ```bash
-$ source /opt/ros/noetic/setup.bash
-$ cd catkin_ws/
-$ source devel/setup.bash
-$ cd src
+$ cd catkin_ws/src
 $ roslaunch create_gazebo/launch/create_gazebo.launch
 ```
 
 ### Launching the roomba-gazebo-control
 Proceed the following commands in your home directory (the directory you are in when you open the terminal).
 ```bash
-$ source /opt/ros/noetic/setup.bash
-$ cd catkin_ws/
-$ source devel/setup.bash
-$ cd src
+$ cd catkin_ws/src
 $ roslaunch create_control/launch/create_control.launch
 ```
 
