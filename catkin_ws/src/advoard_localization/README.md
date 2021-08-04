@@ -61,3 +61,8 @@ def subscribe_data(self,Pose):
   robot_realtime_pose= Pose
 
 ![](https://raw.githubusercontent.com/advoard/advoard_localization/master/docs/localization_gui.png)
+
+## Source
+Link to original Github.
+
+https://github.com/advoard/advoard_localization
