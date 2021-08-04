@@ -140,10 +140,11 @@
     <gazebo reference="left_wheel_link">
         <!--gravity>true</gravity-->
         <material>Gazebo/Grey</material>
-        <mu1>50</mu1>
-        <mu2>10</mu2>
-        <kp>10000000</kp>
-        <kd>1</kd>
+        <mu1>500</mu1>
+        <mu2>100</mu2>
+        <kp>10000000</kp> <!--Originally 10000000-->
+        <ki>10.0</ki> <!--Originally 0.0-->
+        <kd>0.0</kd> <!-- Originally 1.0-->
         <fdir1>1 0 0</fdir1>
         <minDepth>0.0001</minDepth>
         <maxContacts>1</maxContacts>
@@ -214,10 +215,11 @@
     <gazebo reference="right_wheel_link">
         <!--gravity>true</gravity-->
         <material>Gazebo/Grey</material>
-        <mu1>50</mu1>
-        <mu2>10</mu2>
-        <kp>10000000</kp>
-        <kd>1</kd>
+        <mu1>500</mu1>
+        <mu2>100</mu2>
+        <kp>10000000</kp> <!--Originally 10000000-->
+        <ki>10.0</ki> <!--Originally 0.0-->
+        <kd>0.0</kd> <!-- Originally 1.0-->
         <fdir1>1 0 0</fdir1>
         <minDepth>0.0001</minDepth>
         <maxContacts>1</maxContacts>
@@ -466,8 +468,8 @@
     <gazebo reference="sphere1">
         <!--gravity>true</gravity-->
         <material>Gazebo/Grey</material>
-        <mu1>0</mu1>
-        <mu2>0</mu2>
+        <mu1>0</mu1> <!--Originally 0-->
+        <mu2>0</mu2> <!--Originally 0-->
         <kp>10000000</kp>
         <kd>1</kd>
         <fdir1>1 0 0</fdir1>
@@ -477,8 +479,8 @@
     <gazebo reference="sphere2">
         <!--gravity>true</gravity-->
         <material>Gazebo/Grey</material>
-        <mu1>0</mu1>
-        <mu2>0</mu2>
+        <mu1>0</mu1> <!--Originally 0-->
+        <mu2>0</mu2> <!--Originally 0-->
         <kp>10000000</kp>
         <kd>1</kd>
         <fdir1>1 0 0</fdir1>
@@ -501,9 +503,9 @@
             <rightJoint>right_wheel_rot_joint</rightJoint>
             <wheelSeparation>0.28</wheelSeparation>
             <wheelDiameter>0.06</wheelDiameter>
-            <torque>20</torque>
+            <wheelTorque>20</wheelTorque>
             <wheelAcceleration>1.8</wheelAcceleration>
-            <commandTopic>cmd_vel</commandTopic>
+            <commandTopic>/create/diff_drive_controller/cmd_vel</commandTopic>
             <odometryTopic>odom</odometryTopic>
             <odometryFrame>odom</odometryFrame>
             <odometrySource>encoder</odometrySource>

@@ -140,8 +140,8 @@
     <gazebo reference="left_wheel_link">
         <gravity>true</gravity>
         <material>Gazebo/Grey</material>
-        <mu1>50</mu1>
-        <mu2>10</mu2>
+        <mu1>5.0</mu1> <!--Originally 50-->
+        <mu2>1.0</mu2> <!--Originally 10-->
         <kp>10000000</kp>
         <kd>1</kd>
         <fdir1>1 0 0</fdir1>
@@ -214,8 +214,8 @@
     <gazebo reference="right_wheel_link">
         <gravity>true</gravity>
         <material>Gazebo/Grey</material>
-        <mu1>50</mu1>
-        <mu2>10</mu2>
+        <mu1>5.0</mu1> <!--Originally 50-->
+        <mu2>1.0</mu2> <!--Originally 10-->
         <kp>10000000</kp>
         <kd>1</kd>
         <fdir1>1 0 0</fdir1>
@@ -468,8 +468,8 @@
     <gazebo reference="sphere1">
         <gravity>true</gravity>
         <material>Gazebo/Grey</material>
-        <mu1>0</mu1>
-        <mu2>0</mu2>
+        <mu1>0</mu1> <!--originall 0-->
+        <mu2>5.0</mu2> <!--originall 0-->
         <kp>10000000</kp>
         <kd>1</kd>
         <fdir1>1 0 0</fdir1>
@@ -479,8 +479,8 @@
     <gazebo reference="sphere2">
         <gravity>true</gravity>
         <material>Gazebo/Grey</material>
-        <mu1>0</mu1>
-        <mu2>0</mu2>
+        <mu1>5.0</mu1> <!--originall 0-->
+        <mu2>5.0</mu2> <!--originall 0-->
         <kp>10000000</kp>
         <kd>1</kd>
         <fdir1>1 0 0</fdir1>
@@ -502,9 +502,9 @@
             <rightJoint>right_wheel_rot_joint</rightJoint>
             <wheelSeparation>0.28</wheelSeparation>
             <wheelDiameter>0.06</wheelDiameter>
-            <torque>20</torque>
             <wheelAcceleration>1.8</wheelAcceleration>
-            <commandTopic>cmd_vel</commandTopic>
+            <commandTopic>cmd_vel</commandTopic>            
+            <wheelTorque>20</wheelTorque>
             <odometryTopic>odom</odometryTopic>
             <odometryFrame>odom</odometryFrame>
             <odometrySource>encoder</odometrySource>

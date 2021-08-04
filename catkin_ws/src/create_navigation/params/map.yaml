@@ -1,0 +1,9 @@
+image: 153-1.pgm
+resolution: 1.178785714285714
+origin: [-482.346973, -700.1987, 0.0]
+#resolution: 0.20152863
+#origin: [-81.2563436, -119.708006, 0.0]
+occupied_thresh: 0.65
+free_thresh: 0.196
+negate: 0
+mode: trinary

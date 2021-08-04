@@ -1,0 +1,332 @@
+{
+	"BUILD_DIR" : "/home/nicholas/catkin_ws/build/PlotJuggler/3rdparty/lua-5.4.1/lua_static_autogen",
+	"CMAKE_BINARY_DIR" : "/home/nicholas/catkin_ws/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/nicholas/catkin_ws/build/PlotJuggler/3rdparty/lua-5.4.1",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/nicholas/catkin_ws/src/PlotJuggler/3rdparty/lua-5.4.1",
+	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
+	"CMAKE_SOURCE_DIR" : "/home/nicholas/catkin_ws/src",
+	"HEADERS" : 
+	[
+		[
+			"/home/nicholas/catkin_ws/src/PlotJuggler/3rdparty/lua-5.4.1/src/lapi.h",
+			"MU",
+			"UVLADIE3JM/moc_lapi.cpp"
+		],
+		[
+			"/home/nicholas/catkin_ws/src/PlotJuggler/3rdparty/lua-5.4.1/src/lauxlib.h",
+			"MU",
+			"UVLADIE3JM/moc_lauxlib.cpp"
+		],
+		[
+			"/home/nicholas/catkin_ws/src/PlotJuggler/3rdparty/lua-5.4.1/src/lcode.h",
+			"MU",
+			"UVLADIE3JM/moc_lcode.cpp"
+		],
+		[
+			"/home/nicholas/catkin_ws/src/PlotJuggler/3rdparty/lua-5.4.1/src/lctype.h",
+			"MU",
+			"UVLADIE3JM/moc_lctype.cpp"
+		],
+		[
+			"/home/nicholas/catkin_ws/src/PlotJuggler/3rdparty/lua-5.4.1/src/ldebug.h",
+			"MU",
+			"UVLADIE3JM/moc_ldebug.cpp"
+		],
+		[
+			"/home/nicholas/catkin_ws/src/PlotJuggler/3rdparty/lua-5.4.1/src/ldo.h",
+			"MU",
+			"UVLADIE3JM/moc_ldo.cpp"
+		],
+		[
+			"/home/nicholas/catkin_ws/src/PlotJuggler/3rdparty/lua-5.4.1/src/lfunc.h",
+			"MU",
+			"UVLADIE3JM/moc_lfunc.cpp"
+		],
+		[
+			"/home/nicholas/catkin_ws/src/PlotJuggler/3rdparty/lua-5.4.1/src/lgc.h",
+			"MU",
+			"UVLADIE3JM/moc_lgc.cpp"
+		],
+		[
+			"/home/nicholas/catkin_ws/src/PlotJuggler/3rdparty/lua-5.4.1/src/llex.h",
+			"MU",
+			"UVLADIE3JM/moc_llex.cpp"
+		],
+		[
+			"/home/nicholas/catkin_ws/src/PlotJuggler/3rdparty/lua-5.4.1/src/lmem.h",
+			"MU",
+			"UVLADIE3JM/moc_lmem.cpp"
+		],
+		[
+			"/home/nicholas/catkin_ws/src/PlotJuggler/3rdparty/lua-5.4.1/src/lobject.h",
+			"MU",
+			"UVLADIE3JM/moc_lobject.cpp"
+		],
+		[
+			"/home/nicholas/catkin_ws/src/PlotJuggler/3rdparty/lua-5.4.1/src/lopcodes.h",
+			"MU",
+			"UVLADIE3JM/moc_lopcodes.cpp"
+		],
+		[
+			"/home/nicholas/catkin_ws/src/PlotJuggler/3rdparty/lua-5.4.1/src/lparser.h",
+			"MU",
+			"UVLADIE3JM/moc_lparser.cpp"
+		],
+		[
+			"/home/nicholas/catkin_ws/src/PlotJuggler/3rdparty/lua-5.4.1/src/lstate.h",
+			"MU",
+			"UVLADIE3JM/moc_lstate.cpp"
+		],
+		[
+			"/home/nicholas/catkin_ws/src/PlotJuggler/3rdparty/lua-5.4.1/src/lstring.h",
+			"MU",
+			"UVLADIE3JM/moc_lstring.cpp"
+		],
+		[
+			"/home/nicholas/catkin_ws/src/PlotJuggler/3rdparty/lua-5.4.1/src/ltable.h",
+			"MU",
+			"UVLADIE3JM/moc_ltable.cpp"
+		],
+		[
+			"/home/nicholas/catkin_ws/src/PlotJuggler/3rdparty/lua-5.4.1/src/ltm.h",
+			"MU",
+			"UVLADIE3JM/moc_ltm.cpp"
+		],
+		[
+			"/home/nicholas/catkin_ws/src/PlotJuggler/3rdparty/lua-5.4.1/src/lua.h",
+			"MU",
+			"UVLADIE3JM/moc_lua.cpp"
+		],
+		[
+			"/home/nicholas/catkin_ws/src/PlotJuggler/3rdparty/lua-5.4.1/src/lundump.h",
+			"MU",
+			"UVLADIE3JM/moc_lundump.cpp"
+		],
+		[
+			"/home/nicholas/catkin_ws/src/PlotJuggler/3rdparty/lua-5.4.1/src/lvm.h",
+			"MU",
+			"UVLADIE3JM/moc_lvm.cpp"
+		],
+		[
+			"/home/nicholas/catkin_ws/src/PlotJuggler/3rdparty/lua-5.4.1/src/lzio.h",
+			"MU",
+			"UVLADIE3JM/moc_lzio.cpp"
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/nicholas/catkin_ws/build/PlotJuggler/3rdparty/lua-5.4.1/lua_static_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/nicholas/catkin_ws/build/PlotJuggler/3rdparty/lua-5.4.1/lua_static_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"COMPILED_WITH_CATKIN",
+		"LUA_USE_POSIX",
+		"PJ_MAJOR_VERSION=\"3\"",
+		"PJ_MINOR_VERSION=\"1\"",
+		"PJ_PATCH_VERSION=\"2\"",
+		"ROS_BUILD_SHARED_LIBS=1"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/home/nicholas/catkin_ws/build/PlotJuggler/3rdparty/lua-5.4.1",
+		"/home/nicholas/catkin_ws/src/PlotJuggler/3rdparty/lua-5.4.1",
+		"/home/nicholas/catkin_ws/src/PlotJuggler/include",
+		"/opt/ros/noetic/include",
+		"/usr/include/x86_64-linux-gnu/qt5",
+		"/usr/include/x86_64-linux-gnu/qt5/QtCore",
+		"/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++",
+		"/usr/include/x86_64-linux-gnu/qt5/QtWidgets",
+		"/usr/include/x86_64-linux-gnu/qt5/QtGui",
+		"/usr/include/x86_64-linux-gnu/qt5/QtConcurrent",
+		"/usr/include/x86_64-linux-gnu/qt5/QtPrintSupport",
+		"/usr/include/x86_64-linux-gnu/qt5/QtXml",
+		"/usr/include/x86_64-linux-gnu/qt5/QtWebSockets",
+		"/usr/include/x86_64-linux-gnu/qt5/QtNetwork",
+		"/usr/include/x86_64-linux-gnu/qt5/QtSvg",
+		"/usr/include/x86_64-linux-gnu/qt5/QtOpenGL",
+		"/home/nicholas/catkin_ws/src/PlotJuggler/3rdparty",
+		"/home/nicholas/catkin_ws/src/PlotJuggler/3rdparty/color_widgets/include",
+		"/home/nicholas/catkin_ws/src/PlotJuggler/3rdparty/Qt-Advanced-Docking/include",
+		"/home/nicholas/catkin_ws/src/PlotJuggler/3rdparty/paho.mqtt.c/src",
+		"/home/nicholas/catkin_ws/src/PlotJuggler/3rdparty/qwt/src",
+		"/home/nicholas/catkin_ws/src/PlotJuggler/3rdparty/sol",
+		"/home/nicholas/catkin_ws/src/PlotJuggler/3rdparty/lua-5.4.1/src",
+		"/home/nicholas/catkin_ws/src/PlotJuggler/3rdparty/liblsl/src",
+		"/home/nicholas/catkin_ws/src/PlotJuggler/3rdparty/liblsl/include",
+		"/home/nicholas/catkin_ws/src/PlotJuggler/3rdparty/lua-5.4.1/src",
+		"/usr/include",
+		"/usr/include/c++/9",
+		"/usr/include/x86_64-linux-gnu/c++/9",
+		"/usr/include/c++/9/backward",
+		"/usr/lib/gcc/x86_64-linux-gnu/9/include",
+		"/usr/local/include",
+		"/usr/include/x86_64-linux-gnu"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : true,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/usr/bin/c++",
+		"-dM",
+		"-E",
+		"-c",
+		"/usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/home/nicholas/catkin_ws/build/PlotJuggler/3rdparty/lua-5.4.1/lua_static_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 6,
+	"PARSE_CACHE_FILE" : "/home/nicholas/catkin_ws/build/PlotJuggler/3rdparty/lua-5.4.1/CMakeFiles/lua_static_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/usr/lib/qt5/bin/moc",
+	"QT_UIC_EXECUTABLE" : "/usr/lib/qt5/bin/uic",
+	"QT_VERSION_MAJOR" : 5,
+	"SETTINGS_FILE" : "/home/nicholas/catkin_ws/build/PlotJuggler/3rdparty/lua-5.4.1/CMakeFiles/lua_static_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/home/nicholas/catkin_ws/src/PlotJuggler/3rdparty/lua-5.4.1/src/lapi.c",
+			"MU"
+		],
+		[
+			"/home/nicholas/catkin_ws/src/PlotJuggler/3rdparty/lua-5.4.1/src/lauxlib.c",
+			"MU"
+		],
+		[
+			"/home/nicholas/catkin_ws/src/PlotJuggler/3rdparty/lua-5.4.1/src/lbaselib.c",
+			"MU"
+		],
+		[
+			"/home/nicholas/catkin_ws/src/PlotJuggler/3rdparty/lua-5.4.1/src/lcode.c",
+			"MU"
+		],
+		[
+			"/home/nicholas/catkin_ws/src/PlotJuggler/3rdparty/lua-5.4.1/src/lcorolib.c",
+			"MU"
+		],
+		[
+			"/home/nicholas/catkin_ws/src/PlotJuggler/3rdparty/lua-5.4.1/src/lctype.c",
+			"MU"
+		],
+		[
+			"/home/nicholas/catkin_ws/src/PlotJuggler/3rdparty/lua-5.4.1/src/ldblib.c",
+			"MU"
+		],
+		[
+			"/home/nicholas/catkin_ws/src/PlotJuggler/3rdparty/lua-5.4.1/src/ldebug.c",
+			"MU"
+		],
+		[
+			"/home/nicholas/catkin_ws/src/PlotJuggler/3rdparty/lua-5.4.1/src/ldo.c",
+			"MU"
+		],
+		[
+			"/home/nicholas/catkin_ws/src/PlotJuggler/3rdparty/lua-5.4.1/src/ldump.c",
+			"MU"
+		],
+		[
+			"/home/nicholas/catkin_ws/src/PlotJuggler/3rdparty/lua-5.4.1/src/lfunc.c",
+			"MU"
+		],
+		[
+			"/home/nicholas/catkin_ws/src/PlotJuggler/3rdparty/lua-5.4.1/src/lgc.c",
+			"MU"
+		],
+		[
+			"/home/nicholas/catkin_ws/src/PlotJuggler/3rdparty/lua-5.4.1/src/linit.c",
+			"MU"
+		],
+		[
+			"/home/nicholas/catkin_ws/src/PlotJuggler/3rdparty/lua-5.4.1/src/liolib.c",
+			"MU"
+		],
+		[
+			"/home/nicholas/catkin_ws/src/PlotJuggler/3rdparty/lua-5.4.1/src/llex.c",
+			"MU"
+		],
+		[
+			"/home/nicholas/catkin_ws/src/PlotJuggler/3rdparty/lua-5.4.1/src/lmathlib.c",
+			"MU"
+		],
+		[
+			"/home/nicholas/catkin_ws/src/PlotJuggler/3rdparty/lua-5.4.1/src/lmem.c",
+			"MU"
+		],
+		[
+			"/home/nicholas/catkin_ws/src/PlotJuggler/3rdparty/lua-5.4.1/src/loadlib.c",
+			"MU"
+		],
+		[
+			"/home/nicholas/catkin_ws/src/PlotJuggler/3rdparty/lua-5.4.1/src/lobject.c",
+			"MU"
+		],
+		[
+			"/home/nicholas/catkin_ws/src/PlotJuggler/3rdparty/lua-5.4.1/src/lopcodes.c",
+			"MU"
+		],
+		[
+			"/home/nicholas/catkin_ws/src/PlotJuggler/3rdparty/lua-5.4.1/src/loslib.c",
+			"MU"
+		],
+		[
+			"/home/nicholas/catkin_ws/src/PlotJuggler/3rdparty/lua-5.4.1/src/lparser.c",
+			"MU"
+		],
+		[
+			"/home/nicholas/catkin_ws/src/PlotJuggler/3rdparty/lua-5.4.1/src/lstate.c",
+			"MU"
+		],
+		[
+			"/home/nicholas/catkin_ws/src/PlotJuggler/3rdparty/lua-5.4.1/src/lstring.c",
+			"MU"
+		],
+		[
+			"/home/nicholas/catkin_ws/src/PlotJuggler/3rdparty/lua-5.4.1/src/lstrlib.c",
+			"MU"
+		],
+		[
+			"/home/nicholas/catkin_ws/src/PlotJuggler/3rdparty/lua-5.4.1/src/ltable.c",
+			"MU"
+		],
+		[
+			"/home/nicholas/catkin_ws/src/PlotJuggler/3rdparty/lua-5.4.1/src/ltablib.c",
+			"MU"
+		],
+		[
+			"/home/nicholas/catkin_ws/src/PlotJuggler/3rdparty/lua-5.4.1/src/ltm.c",
+			"MU"
+		],
+		[
+			"/home/nicholas/catkin_ws/src/PlotJuggler/3rdparty/lua-5.4.1/src/lua.c",
+			"MU"
+		],
+		[
+			"/home/nicholas/catkin_ws/src/PlotJuggler/3rdparty/lua-5.4.1/src/lundump.c",
+			"MU"
+		],
+		[
+			"/home/nicholas/catkin_ws/src/PlotJuggler/3rdparty/lua-5.4.1/src/lutf8lib.c",
+			"MU"
+		],
+		[
+			"/home/nicholas/catkin_ws/src/PlotJuggler/3rdparty/lua-5.4.1/src/lvm.c",
+			"MU"
+		],
+		[
+			"/home/nicholas/catkin_ws/src/PlotJuggler/3rdparty/lua-5.4.1/src/lzio.c",
+			"MU"
+		]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}

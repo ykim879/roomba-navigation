@@ -1,0 +1,2 @@
+/usr/bin/ar qc /home/nicholas/catkin_ws/devel/lib/liblslboost.a  CMakeFiles/lslboost.dir/lslboost_autogen/mocs_compilation.cpp.o CMakeFiles/lslboost.dir/lslboost/asio_objects.cpp.o CMakeFiles/lslboost.dir/lslboost/serialization_objects.cpp.o
+/usr/bin/ranlib /home/nicholas/catkin_ws/devel/lib/liblslboost.a

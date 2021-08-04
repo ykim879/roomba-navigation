@@ -1,0 +1,10 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/nicholas/catkin_ws/build/PlotJuggler/3rdparty/paho.mqtt.c/src/common_obj_static_autogen/mocs_compilation.cpp
+

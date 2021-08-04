@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <launch>
+	<!--include file="$(find create_gazebo)/launch/create_gazebo.launch"/-->
   <!--rosparam command="load"
             file="$(find create_control)/config/create_control.yaml"/-->
 
-  <rosparam command="load" file="$(find create_control)/config/gazebo_ros_control_params.yaml"/>
-  <rosparam command="load" file="$(find create_control)/config/create_control2.yaml"/>
+  <!--rosparam command="load" file="$(find create_control)/config/gazebo_ros_control_params.yaml"/>
+  <rosparam command="load" file="$(find create_control)/config/create_control2.yaml"/-->
 
 
   <node name="create_controller_spawner" 
@@ -30,5 +31,8 @@
 <node name="rqt_robot_steering" pkg="rqt_robot_steering" type="rqt_robot_steering">
     <param name="default_topic" value="/create/diff_drive_controller/cmd_vel"/>
   </node>
+ 
+  
+  <node pkg="create_control" name="create_uwb_control" type="create_uwb_control_radian.py"/>
   
 </launch>

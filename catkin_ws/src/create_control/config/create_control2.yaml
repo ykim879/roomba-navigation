@@ -8,6 +8,7 @@ create:  # Publish all joint states -----------------------------------
     right_wheel: 'right_wheel_rot_joint'
     wheel_separation: 0.28
     wheel_radius: 0.03
+    wheel_torque: 20
     pose_covariance_diagonal: [0.001, 0.001, 1000000.0, 1000000.0, 1000000.0, 1000.0]
     twist_covariance_diagonal: [0.001, 0.001, 1000000.0, 1000000.0, 1000000.0, 1000.0]
     publish_rate: 1000  

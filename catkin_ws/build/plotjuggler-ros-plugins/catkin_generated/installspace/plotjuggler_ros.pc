@@ -1,0 +1,8 @@
+prefix=/home/nicholas/catkin_ws/install
+
+Name: plotjuggler_ros
+Description: Description of plotjuggler_ros
+Version: 1.2.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: rosbag_storage roscpp roscpp_serialization tf tf2_ros diagnostic_msgs nav_msgs sensor_msgs plotjuggler_msgs plotjuggler

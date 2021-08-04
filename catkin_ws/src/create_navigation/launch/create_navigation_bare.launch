@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+  <node name="map_server" pkg="map_server" type="map_server" args="/home/nicholas/catkin_ws/src/create_navigation/params/map.yaml"/>
+  <node name="gp" pkg="global_planner" type="planner" output="screen">
+  <rosparam file="/home/nicholas/catkin_ws/src/create_navigation/params/base_global_planner_params.yaml" command="load"/>
+  <rosparam>
+  costmap:
+    unknown_cost_value: 100
+    map_type: costmap
+    track_unknown_space: false
+    plugins:
+      - {name: 'static_layer', type: 'costmap_2d::StaticLayer'}
+  </rosparam>
+  </node>
+  <node name="static_tf" pkg="tf" type="static_transform_publisher" args="0 0 0 0 0 0 map odom 100"/>
+  
+  <!--node pkg="rviz" name="rviz" type="rviz"  args="-d $(find create_navigation)/rviz/config_file.rviz">
+  </node-->
+</launch>

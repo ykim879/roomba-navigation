@@ -1,0 +1,2 @@
+/usr/bin/ar qc /home/nicholas/catkin_ws/devel/lib/libcolorwidgets.a  CMakeFiles/colorwidgets.dir/colorwidgets_autogen/mocs_compilation.cpp.o CMakeFiles/colorwidgets.dir/src/color_names.cpp.o CMakeFiles/colorwidgets.dir/src/color_palette.cpp.o CMakeFiles/colorwidgets.dir/src/color_utils.cpp.o CMakeFiles/colorwidgets.dir/src/color_preview.cpp.o CMakeFiles/colorwidgets.dir/src/color_wheel.cpp.o CMakeFiles/colorwidgets.dir/src/swatch.cpp.o
+/usr/bin/ranlib /home/nicholas/catkin_ws/devel/lib/libcolorwidgets.a
