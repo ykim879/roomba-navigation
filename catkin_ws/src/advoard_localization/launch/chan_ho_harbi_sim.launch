@@ -1,0 +1,9 @@
+<launch>
+  <include file="$(find pozyx_simulation)/launch/uwb_simulation_initializing.launch"/>
+  <!--node pkg="advoard_localization" name="initialpose_uwb_average" type="initialpose_uwb_average.py" /-->
+  <node pkg="advoard_localization" name="chan_ho_localization" type="chan_ho.py" />
+  <node pkg="advoard_localization" name="harbi_localization" type="harbi.py" />
+  <node pkg="advoard_localization" name="harbi_multi_localization" type="harbi_multi_uwb.py"/>
+  <node pkg="advoard_localization" name="position_error" type="position_error.py" />
+  <include file ="$(find create_navigation)/launch/create_navigation_bare.launch"/>  
+</launch>
