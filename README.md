@@ -28,26 +28,30 @@ Thirdly, clone the repository.
 After cloning the repository, copy create_control, create_description, and create_gazebo file in roomba-navigation/catkin_ws/src/ directory and paste it on your catkin-ws/src directory (the directory you made on second step). 
 ## Impement the project
 To implement the project, follow the following 3 steps on different terminal windows.
-### Lauch roscore
+### 1. Lauch roscore
 Launch roscore by using following command:
 ```bash
 $ roscore
 ```
-### Launching the roomba-gazebo-world 
+### 2. Launch Gazebo
 Proceed the following commands in your home directory (the directory you are in when you open the terminal).
 ```bash
 $ cd catkin_ws/src
-$ roslaunch create_gazebo/launch/create_gazebo.launch
+$ roslaunch create_gazebo create_gazebo.launch
 ```
-
-### Launching the roomba-gazebo-control
+## 3. Launch UWB Simulation and Chan Ho and Harbi Localization Simulation 
+### Launching the Roomba's Control Code
 Proceed the following commands in your home directory (the directory you are in when you open the terminal).
 ```bash
 $ cd catkin_ws/src
-$ roslaunch create_control/launch/create_control.launch
+$ roslaunch advoard_localization chan_ho_harbi.launch
 ```
+## 4. Launch Roomba's Control Code
 
-
+```bash
+$ cd catkin_ws/src
+$ roslaunch create_control create_control.launch
+```
 
 ## STL files
 STL files on the root folder is consisted of 3D-CAD floor plan of one of the building in Georgia Tech, Klaus building.
