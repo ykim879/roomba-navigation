@@ -39,14 +39,13 @@ Proceed the following commands in your home directory (the directory you are in 
 $ cd catkin_ws/src
 $ roslaunch create_gazebo create_gazebo.launch
 ```
-## 3. Launch UWB Simulation and Chan Ho and Harbi Localization Simulation 
-### Launching the Roomba's Control Code
+### 3. Launch UWB Simulation and Chan Ho and Harbi Localization Simulation 
 Proceed the following commands in your home directory (the directory you are in when you open the terminal).
 ```bash
 $ cd catkin_ws/src
 $ roslaunch advoard_localization chan_ho_harbi.launch
 ```
-## 4. Launch Roomba's Control Code
+### 4. Launch Roomba's Control Code
 
 ```bash
 $ cd catkin_ws/src
