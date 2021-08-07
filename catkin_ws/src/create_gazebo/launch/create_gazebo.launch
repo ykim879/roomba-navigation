@@ -6,6 +6,8 @@
     
     <remap from="tf" to="gazebo_tf"/>
     
+    <!-- This node overrides default gazebo transform. New transform is necessary for the global planner to function properly.-->
+    
     <node pkg="tf" type="static_transform_publisher" name="base_link_to_odom" args="0.0 0.0 0.0 0.0 0.0 0.0  odom /base_link  100" />
     
       <rosparam command="load" file="$(find create_control)/config/gazebo_ros_control_params.yaml"/>

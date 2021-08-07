@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <launch>
+
+<!--Runs map server. Map server creates an occupancy grid out of the map.yaml configuration file. -->
   <node name="map_server" pkg="map_server" type="map_server" args="/home/nicholas/catkin_ws/src/create_navigation/params/map.yaml"/>
+ <!-- Global Planner package. Uses occupancy grid from the map_server and a goal position (x,y coordinates) to create a path. -->
   <node name="gp" pkg="global_planner" type="planner" output="screen">
   <rosparam file="/home/nicholas/catkin_ws/src/create_navigation/params/base_global_planner_params.yaml" command="load"/>
   <rosparam>
@@ -12,6 +15,8 @@
       - {name: 'static_layer', type: 'costmap_2d::StaticLayer'}
   </rosparam>
   </node>
+  
+  <!--Transforms map frame to odom frame. Necessary for global planner package to function. -->
   <node name="static_tf" pkg="tf" type="static_transform_publisher" args="0 0 0 0 0 0 map odom 100"/>
   
   <!--node pkg="rviz" name="rviz" type="rviz"  args="-d $(find create_navigation)/rviz/config_file.rviz">

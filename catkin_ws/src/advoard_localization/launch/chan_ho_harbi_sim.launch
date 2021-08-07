@@ -5,5 +5,5 @@
   <node pkg="advoard_localization" name="harbi_localization" type="harbi.py" />
   <node pkg="advoard_localization" name="harbi_multi_localization" type="harbi_multi_uwb.py"/>
   <node pkg="advoard_localization" name="position_error" type="position_error.py" />
-  <include file ="$(find create_navigation)/launch/create_navigation_bare.launch"/>  
+  <include file ="$(find create_navigation)/launch/create_navigation_v3.launch"/>  
 </launch>
