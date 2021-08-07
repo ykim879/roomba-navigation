@@ -1,5 +1,5 @@
 # Custom Files
-These files are not originally part of the advoard_localization package.
+The following files are not originally part of the advoard_localization package. The entirety of this package does not belong to us.
 Here is the link to the original advoard_localization package https://github.com/advoard/advoard_localization.
 
 In /src folder:
