@@ -7,6 +7,31 @@ __maintainer__ = "Bekir Bostanci"
 __email__ = "bekirbostanci@gmail.com"
 '''
 
+'''
+Edited by Nicholas Leone
+
+Original File="sqrrange_leastsqr_localization.py"
+in advoard_localization package ("https://github.com/advoard/advoard_localization").
+
+Chan_Ho Algorithm="TDoALocalization.py" and "UnitTests.py"
+in Klauba Navigation package ("https://github.com/arjun11verma/KlaubaNavigation")
+
+
+
+__email__ = "nicholasjinleone@gmail.com"
+__email__ = "nleone6@gatech.edu"
+'''
+
+'''
+ROS Implementation of Harbi Localization Algorithm
+
+Subscribes to uwb_data_topic.
+
+Uses Harbi Localization Algorithm to calculate the position of the Roomba using only three UWB devices.
+
+NOTE: Cannot handle more than three UWB devices.
+'''
+
 from logging import error
 import rospy
 from pozyx_simulation.msg import  uwb_data
@@ -40,10 +65,6 @@ c = 0.299792458
 
 rospy.init_node('localization_data__harbi_node', anonymous=True)
 pub = rospy.Publisher('localization_data_harbi_topic', Pose, queue_size=10)
-#rospy.init_node('absolute_error')
-
-#rospy.init_node('error', anonymous=True)
-#pub_error = rospy.Publisher('error', Pose, queue_size=10)
 
 
 

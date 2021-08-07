@@ -1,5 +1,20 @@
 #!/usr/bin/env python3
 
+'''
+__author__ = "Nicholas Leone"
+__email__ = "nicholasjinleone@gmail.com"
+__email__ = "nleone6@gatech.edu"
+'''
+
+'''
+Absolute Error of Chan Ho and Harbi Position Calculation
+
+Subscribes to localization_data_chan_ho_topic, localization_data_harbi_topic, and gazebo/model_states.
+
+Calculates error between the calculated position and the actual position of the Roomba for each localization algorithm.
+'''
+
+
 from logging import error
 
 from scipy.linalg.decomp_svd import null_space

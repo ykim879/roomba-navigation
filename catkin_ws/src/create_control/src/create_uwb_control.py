@@ -7,6 +7,26 @@ __maintainer__ = "Bekir Bostanci"
 __email__ = "bekirbostanci@gmail.com"
 '''
 
+'''
+Edited by Nicholas Leone
+Original File="initialpose_uwb_average.py"
+in advoard_localization package ("https://github.com/advoard/advoard_localization").
+
+__email__ = "nicholasjinleone@gmail.com"
+__email__ = "nleone6@gatech.edu"
+'''
+
+'''
+Out-Dated Navigational Code for the Roomba. 
+Subscribes to a localization topic to obtain its calculated position from a localization algorithm.
+Roomba move towards a given position by moving on the x-axis until reaching the x position of its goal.
+Then, turns a 90 degree angle and moves on the y-axis until reaching the y position of its goal.
+
+This script is not used by the create_control package anymore. 
+
+"create_uwb_control_radian" is the current control script for the Roomba and the create_control package.
+'''
+
 from logging import error
 from os import path
 import rospy
@@ -16,7 +36,6 @@ from geometry_msgs.msg import Pose
 from geometry_msgs.msg import PoseStamped
 from geometry_msgs.msg import PointStamped
 from geometry_msgs.msg import Twist
-from navfn.srv import MakeNavPlan
 
 import sys
 import math
@@ -26,6 +45,9 @@ import time
 import numpy as np
 
 from rospy.names import scoped_name
+
+
+
 
 
 global first_pose 
@@ -52,7 +74,6 @@ move_once = False
 rospy.init_node('create_uwb_control', anonymous=True)
 velocity_publisher = rospy.Publisher("create/diff_drive_controller/cmd_vel", Twist, queue_size=10)
 pose_publisher = rospy.Publisher("create_pose", Pose, queue_size=10)
-rospy.wait_for_service('/gp/planner/make_plan')
 
 
 
