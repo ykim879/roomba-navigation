@@ -1,3 +1,9 @@
+# Link to Pozyx Simulation GitHub
+
+This package does not belong to us. Here is the link to the original GitHub https://github.com/bekirbostanci/pozyx_simulation.
+
+
+
 # ROS Pozyx Simulation
 This package is to simulate the UWB range measurements in ROS environment. Generated data published to “uwb_data_topic” 
 
