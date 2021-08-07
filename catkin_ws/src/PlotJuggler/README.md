@@ -1,6 +1,6 @@
 # Link to PlotJuggler GitHub
 
-This package does not belong to me. 
+This package does not belong to us. 
 
 Here is the link to the PlotJuggler GitHub https://github.com/orgs/PlotJuggler/repositories.
 
