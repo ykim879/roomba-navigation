@@ -20,6 +20,9 @@ The map server is a node that provides map data via ROS service. For the map ser
 
 Out of the list of parameters found in the map.yaml file, the resolution parameter is the most important. The resolution parameter refers to the resolution of the map, which is measured in meters per pixel. The resolution parameter needs to be set where the scale between the costmap and the 3D model of the KACB building is one-to-one.
 
+More information about Map Server
+  - http://wiki.ros.org/map_server
+
 ### Calculation of the Resolution Parameter
 
 1. Convert the .stl file of one of the three floors of the KACB into a .pgm file. This is done by converting .stl to .jpg, and then converting the .jpg to .pgm. 
@@ -39,6 +42,5 @@ Out of the list of parameters found in the map.yaml file, the resolution paramet
 
 
 
-More information about Map Server
-  - http://wiki.ros.org/map_server
+
 
