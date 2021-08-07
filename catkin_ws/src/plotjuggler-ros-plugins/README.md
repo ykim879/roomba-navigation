@@ -1,3 +1,8 @@
+# Link to PlotJuggler ROS Plugins GitHub
+
+This package does not belong to us. Here is the link to the original GitHub for the
+PlotJuggler ROS Plugins GitHub https://github.com/PlotJuggler/plotjuggler-ros-plugins/.
+
 # ROS plugins for PlotJuggler
 
 PlotJuggler works great with ROS, but it is not itself a "ROS" application.
