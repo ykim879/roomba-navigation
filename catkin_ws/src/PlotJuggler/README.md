@@ -1,3 +1,10 @@
+# Link to PlotJuggler GitHub
+
+This package does not belong to me. 
+
+Here's the link to the PlotJuggler GitHub https://github.com/orgs/PlotJuggler/repositories.
+
+
 ![PlotJuggler](docs/plotjuggler3_banner.svg)
 
 
