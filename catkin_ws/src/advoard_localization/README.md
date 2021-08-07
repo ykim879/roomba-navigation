@@ -1,3 +1,17 @@
+# Custom Files
+These files are not originally part of the advoard_localization package.
+Here is the link to the original advoard_localization package https://github.com/advoard/advoard_localization.
+
+In /src folder:
+- chan_ho.py (edited version of sqrrange_leastsqr_localization.py)
+- harbi.py (edited version of sqrrange_leastsqr_localization.py)
+- harbi_multi_uwb.py (edited version of sqrrange_leastsqr_localization.py)
+- position_error.py (original file)
+
+In /launch folder:
+- chan_ho_harbi_sim.launch (original file)
+
+
 # ROS ADVOARD AGV Localization
 In this project we aimed to develop a system that works in ROS environment and can localize itself. These packages tested under turtlebot3, but it can also be used on any other system that has an Ultra-wideband ranging sensor and odometry sensors mounted. It is also possible to initialize the robot and send the initial pose estimation to navigation stack without the need of manually initializing it on the RViz window but keep in mind that in order to the use this feature LiDAR is required. AMCL also needs an initial pose so this feature is very crucial to have a fully autonomous system. We offer a simulation package with synthetic UWB data for now, but it can be adjusted so that it will be possible to the use it on real life robot with real UWB sensors.
 
