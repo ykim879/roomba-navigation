@@ -24,8 +24,14 @@ Close the terminal and open a new one. The scripts should now be automatically s
 The source of this instructions are in this link: http://wiki.ros.org/catkin/Tutorials/create_a_workspace
 
 
-Thirdly, clone the repository. 
-After cloning the repository, copy create_control, create_description, and create_gazebo file in roomba-navigation/catkin_ws/src/ directory and paste it on your catkin-ws/src directory (the directory you made on second step). 
+Thirdly, clone the repository and run catkin_make to build the your package. 
+
+```bash
+$ cd catkin_ws/src
+$ git clone https://github.com/ykim879/roomba-navigation
+$ cd ..
+$ catkin_make
+```
 ## Impement the project
 To implement the project, follow the following 3 steps on different terminal windows.
 ### 1. Lauch roscore
