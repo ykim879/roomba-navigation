@@ -1,0 +1,9 @@
+# gazebo_ros_control_params.yaml
+type: "/gazebo_ros_control/pid_gains"
+gazebo_ros_control:
+  pid_gains:
+    left_wheel_rot_joint: {p: 1.35, i: 10.0, d: 0.0}
+    right_wheel_rot_joint: {p: 1.35, i: 10.0, d: 0.0}
+    sphere_joint1: {p: 0.0, i: 0.0, d: 0.0}
+    sphere_joint2: {p: 0.0, i: 0.0, d: 0.0}
+    
