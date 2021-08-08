@@ -1,8 +1,0 @@
-prefix=/home/nicholas/catkin_ws/devel
-
-Name: create_control
-Description: Description of create_control
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

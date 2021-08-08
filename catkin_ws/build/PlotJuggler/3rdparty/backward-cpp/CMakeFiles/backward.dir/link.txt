@@ -1,2 +1,0 @@
-/usr/bin/ar qc /home/nicholas/catkin_ws/devel/lib/libbackward.a  CMakeFiles/backward.dir/backward_autogen/mocs_compilation.cpp.o CMakeFiles/backward.dir/backward.cpp.o
-/usr/bin/ranlib /home/nicholas/catkin_ws/devel/lib/libbackward.a

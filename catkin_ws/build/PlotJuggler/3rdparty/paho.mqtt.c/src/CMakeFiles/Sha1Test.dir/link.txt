@@ -1,1 +1,0 @@
-/usr/bin/c++   -g -fno-omit-frame-pointer  -fPIC -O2 -g -DNDEBUG  -rdynamic CMakeFiles/Sha1Test.dir/Sha1Test_autogen/mocs_compilation.cpp.o CMakeFiles/Sha1Test.dir/SHA1.c.o  -o /home/nicholas/catkin_ws/devel/lib/plotjuggler/Sha1Test 

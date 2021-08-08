@@ -1,2 +1,0 @@
-set(plotjuggler_msgs_MESSAGE_FILES "/home/nicholas/catkin_ws/src/plotjuggler_msgs/msg/DataPoint.msg;/home/nicholas/catkin_ws/src/plotjuggler_msgs/msg/DataPoints.msg;/home/nicholas/catkin_ws/src/plotjuggler_msgs/msg/Dictionary.msg")
-set(plotjuggler_msgs_SERVICE_FILES "")

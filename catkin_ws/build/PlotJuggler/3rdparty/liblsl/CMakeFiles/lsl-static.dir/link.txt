@@ -1,2 +1,0 @@
-/usr/bin/ar qc /home/nicholas/catkin_ws/devel/lib/liblsl-static.a  CMakeFiles/lsl-static.dir/lsl-static_autogen/mocs_compilation.cpp.o CMakeFiles/lsl-static.dir/src/buildinfo.cpp.o
-/usr/bin/ranlib /home/nicholas/catkin_ws/devel/lib/liblsl-static.a

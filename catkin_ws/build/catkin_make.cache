@@ -1,2 +1,0 @@
-PlotJuggler:advoard_localization:create_control:create_description:create_gazebo:create_navigation:plotjuggler-ros-plugins:plotjuggler_msgs:pozyx_simulation
--DCATKIN_DEVEL_PREFIX=/home/nicholas/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/nicholas/catkin_ws/install -G Unix Makefiles
