@@ -1,4 +1,7 @@
 # roomba-navigation
+
+https://user-images.githubusercontent.com/25068094/128764874-d03dfd82-c857-4282-81f5-6882173279eb.mp4
+
 ## Set up
 To set up this repository, you need linux environemnt and ros-noetic.
 You can proceed installation on by following the link: http://wiki.ros.org/noetic/Installation
