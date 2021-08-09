@@ -1,6 +1,10 @@
 ## Create Navigation
 
-The create_navigation package is what allows the creation of a path for the Roomba to follow. This package utilizes the Global Planner package that's part of the move_base package in ROS. 
+The create_navigation package is what allows the creation of a path for the Roomba to follow. This package utilizes the Global Planner package that's part of the move_base package in ROS.
+
+<p align="center">
+  <img width="460" height="300" src="https://user-images.githubusercontent.com/25068094/128765672-7a3025d6-d7f5-47cd-86f0-d6ed71c1b3d3.png">
+</p>
 
 ## Global Planner
 
